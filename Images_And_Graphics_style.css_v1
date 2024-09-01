@@ -1,0 +1,411 @@
+/* CSS files add styling rules to your content */
+/* Use this section to define styles for your HTML elements */
+
+/* here is the link for importing my google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+   font-family: "Roboto Condensed", sans-serif;
+   margin: 0;
+}
+
+h1 {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: #FFF;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+h4 {
+  color: #FFF;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 1100px;
+}
+
+/* Paragraph Styles */
+.para1, .para2 {
+  font-size: 19px; /* Default font size, can be overridden */
+  padding-left: 50px;
+  padding-right: 20px;
+  color: #000000;
+  padding-left: 70px;
+  margin-right: 180px;
+}
+
+/* Specific overrides for .para2 */
+.para2 {
+  font-size: 25px;
+  margin-bottom: 200px;
+  color: #FFF;
+  margin-left: 100px;
+  text-decoration-line: underline;
+}
+
+.para3 {
+margin-top: 20px;	
+font-size: 25px;
+margin-left: 955px;
+margin-right: 300px;
+}
+
+.para4 {
+	margin-left: 995px;
+}
+
+.para5 {
+	margin-left: 400px;
+	font-size: 20px;
+}
+
+.para6 {
+margin-top: 20px;	
+font-size: 19px;
+margin-left: 955px;
+margin-right: 300px;
+{color: #000080; }
+}
+
+.Phone_number {
+	word-spacing: 5px;
+	margin-left: 150px;
+	text-decoration-line: underline;
+}
+
+.School_Address {
+	letter-spacing: 0.3px;
+}
+
+.Gmail {
+	letter-spacing: 0;
+	text-decoration-line: underline;
+	margin-right: 5px;
+}
+
+.map {
+	text-align: center;
+	margin-bottom: 200px;
+	margin-left: 550px;
+	border-bottom: -15px;
+	outline: 5px solid white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-template-rows: 100px 600px 50px;
+	height: 100vh;
+}
+
+.header {
+  box-sizing: border-box;
+  background-color: #3750A5;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  padding-bottom: 10px;
+  width: 1990px;
+  Height: 500px;
+  font-size: 50px;
+}
+
+/* CSS for styling my Navigation/Menu */
+.nav {
+  box-sizing: border-box;
+  background-color: #3750A5; /*Blue*/
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  width: 1990px;
+  height: 100px;
+  text-align: center;
+  font-size: 80px;
+}
+
+/* CSS for block menu starts here */
+ul {
+  display: inline;
+  list-style: none;
+}
+ul li {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px 17px; /*padding for main block menu buttons */
+}
+ul li:hover {
+  background: #657CCA;
+  }
+nav ul {
+text-align: center; /*Ensures the text is centered in the box*/
+margin: 5px 87px 5px 370px; /*Moves the text down and along*/
+padding-top: 7px;
+}
+  
+/* Hover Colours*/
+a:link {color:#FFFFFF;} /* unvisited link */
+a:visited {color:#FFFFFF;} /* visited link */
+a:hover {color: #000000;} /* mouse over link */
+a:active {color:#FFFFFF;}  /* selected link */
+
+a {
+text-decoration: none;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px; /* space between each drop-down menu list */
+  left: 0;
+  width: 180px; /* width of drop-down menu list */
+  display: none;
+  visibility: hidden; /* this hides the drop-down menu list */
+  z-index: 1; /* for overlapping divs, bringing to the front like a drop down menu */
+}
+
+ul li ul li { 
+  background: #657CCA; /* this is the drop-down menu background color */
+  display: block; 
+}
+ul li ul li:hover { background: #657CCA;} /* this is the drop-down menu hover on blocks */
+
+ul li:hover ul {
+  display: block;
+  visibility: visible; /* this makes the drop-down menu visable*/
+}
+/* Style for Navigation ends here*/
+
+.box1 {
+  width: 1990px;
+  height: 10px;
+  background-color: #A2091B;
+}
+
+.box2 {
+	width: 1990px;
+	height: 10px;
+	background-color: #FBCA01;
+}
+
+.box3 {
+	width: 1990px;
+	height: 100px;
+	background-color: #3750A5;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+	display: flex;
+}
+
+.box4 {
+	width: 1990px;
+	height: 200px;
+	background-color: #3750A5;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+	display: flex;
+}
+
+.box5 {
+	width: 1990px;
+	height: 450px;
+	background-color: #fff;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+	display: flex;
+}
+
+/* style for slider starts here */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1986px;
+  position: relative;
+  margin: auto;
+  margin-top: -2px;
+  margin-right: 5px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* style for slider ends here */
+
+.content{
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	position: relative;
+	width: 1990px;
+	height: 1300px;
+	font-size: 12px;
+	text-align: left;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.logo1 {
+	float: right;
+}
+
+.scroll-area {
+	position: absolute;
+	height: 100%;
+	overflow: auto;
+}
+
+.Logo2, .Video1, .Image2 .Image6 .Image7 {
+	margin-top: 210px;
+}
+
+.Image3, .Image4 {
+	margin-top: -900px;
+	text-align: center;
+}
+
+.Image5 {
+	margin-left: 200px;
+	margin-top: -390px;
+	margin-bottom: 400px;
+}
+
+.Image6 {
+	margin-right: 700px;
+}
+
+.Te_Rauparaha_Arena_video {
+	margin-top: -100px;
+	margin: 5px;
+}
+.img
+  margin: 5px;
+}
+
+/* CSS for styling my back to Top Button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #657CCA; /* add a background color */
+  color: #000; /* color of text */
+  cursor: pointer; /* setting the icon to be used for my button on hover. https://www.w3schools.com/cssref/trvit.php?filename=trvcss_cursor. */
+  padding: 15px; /* add padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* font size */
+}
+
+#myBtn:hover {
+  background-color: #808080; /* Add a dark-grey background on hover */
+}
+
+.footer {
+	grid-column-end: span 2;
+	background-color: #FBCA01;
+	width: 1990px;
+	Height: 40px;
+	color: #000000;
+	font-size: 20px; /* font size */
+	margin-top: 0;
+	text-align: center;
+}
