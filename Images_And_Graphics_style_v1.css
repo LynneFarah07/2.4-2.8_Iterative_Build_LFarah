@@ -17,57 +17,62 @@ h1 {
 
 h2 {
   color: #000000;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
 h3 {
   color: #FFF;
-  font-size: 45px;
+  font-size: 26px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 150px;
 }
 
 h4 {
   color: #FFF;
-  font-size: 45px;
+  font-size: 26px;
   text-align: center;
-  margin-top: 30px;
-  margin-left: 1100px;
+  margin-top: 20px;
+  margin-left: 1300px;
 }
 
 h5 {
   color: #000000;
   font-size: 30px;
   text-align: center;
-  margin-left: 550px;
+  margin-left: 500px;
 }
 
 /* Paragraph Styles */
-.para1, .para2 {
-  font-size: 19px; /* Default font size, can be overridden */
+.para1 {
+  font-size: 20.5px; /* Default font size, can be overridden */
   padding-left: 50px;
   padding-right: 20px;
   color: #000000;
   padding-left: 70px;
   margin-right: 180px;
+  margin-left: 100px;
 }
 
 /* Specific overrides for .para2 */
 .para2 {
   font-size: 25px;
   margin-bottom: 200px;
-  color: #FFF;
-  margin-left: 100px;
+  margin-left: 80px;
   text-decoration-line: underline;
+  padding-left: 50px;
+  padding-right: 20px;
+  color: #ffffff;
+  padding-left: 70px;
+  margin-right: 180px;
 }
 
 .para3 {
 margin-top: 20px;	
 font-size: 25px;
-margin-left: 955px;
-margin-right: 300px;
+margin-left: 272px;
+margin-right: 160px;
 }
 
 .para4 {
@@ -85,32 +90,44 @@ margin-top: 20px;
 font-size: 19px;
 margin-left: 955px;
 margin-right: 300px;
-{color: #000080; }
+color: #000080; 
 }
 
 .Phone_number {
 	word-spacing: 5px;
-	margin-left: 150px;
+	margin-left: 2px;
+	margin-right: 60px;
 	text-decoration-line: underline;
 }
 
 .School_Address {
-	letter-spacing: 0.3px;
+  letter-spacing: 0; /* Existing style */
+  margin-left: 0;
+  margin-right: 4px;
+}
+
+.School_Address1 {
+	margin-left: 326px;
 }
 
 .Gmail {
 	letter-spacing: 0;
 	text-decoration-line: underline;
-	margin-right: 5px;
+	margin-right: 0;
 }
 
 .map {
 	text-align: center;
 	margin-bottom: 200px;
-	margin-left: 550px;
-	border-bottom: -15px;
+	border-bottom: 15px;
 	outline: 5px solid white;
+	margin-left: 500px;
 }
+
+.image-container {
+    text-align: center;
+}
+	
 
 .grid-container {
 	display: grid;
@@ -124,7 +141,6 @@ margin-right: 300px;
   background-color: #3750A5;
   grid-column-start: 1;
   grid-column-end: span 2;
-  padding-bottom: 10px;
   width: 1990px;
   Height: 500px;
   font-size: 50px;
@@ -133,13 +149,12 @@ margin-right: 300px;
 /* CSS for styling my Navigation/Menu */
 .nav {
   box-sizing: border-box;
-  background-color: #3750A5; /*Blue*/
+  background-color: #808080;
   grid-column-start: 1;
   grid-column-end: span 2;
   width: 1990px;
-  height: 100px;
+  height: 50px;
   text-align: center;
-  font-size: 80px;
 }
 
 /* CSS for block menu starts here */
@@ -157,7 +172,7 @@ ul li {
   padding: 15px 20px 17px; /*padding for main block menu buttons */
 }
 ul li:hover {
-  background: #657CCA;
+  background: #6B6B6B;;
   }
 nav ul {
 text-align: center; /*Ensures the text is centered in the box*/
@@ -187,10 +202,10 @@ ul li ul {
 }
 
 ul li ul li { 
-  background: #657CCA; /* this is the drop-down menu background color */
+  background: #6B6B6B; /* this is the drop-down menu background color */
   display: block; 
 }
-ul li ul li:hover { background: #657CCA;} /* this is the drop-down menu hover on blocks */
+ul li ul li:hover { background: #6B6B6B;} /* this is the drop-down menu hover on blocks */
 
 ul li:hover ul {
   display: block;
@@ -234,6 +249,16 @@ ul li:hover ul {
 	width: 1990px;
 	height: 450px;
 	background-color: #fff;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+	display: flex;
+}
+
+.box6 {
+	width: 1990px;
+	height: 40px;
+	background-color: #3750A5;
 	font-size: 20px;
 	text-align: left;
 	color: #FFFFFF;
@@ -323,7 +348,21 @@ ul li:hover ul {
 	background-color: #FFFFFF;
 	position: relative;
 	width: 1990px;
-	height: 1300px;
+	height: 1400px;
+	font-size: 12px;
+	text-align: left;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.content1{
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	position: relative;
+	width: 1990px;
+	height: 1000px;
 	font-size: 12px;
 	text-align: left;
     flex-direction: column;
@@ -333,7 +372,12 @@ ul li:hover ul {
 }
 
 .logo1 {
-	float: right;
+	float: left;
+}
+
+.Tawa_College_Logo {
+	margin-left: 300px;	
+	margin-top: -10px;
 }
 
 .scroll-area {
@@ -345,17 +389,17 @@ ul li:hover ul {
 .Logo2, .Video1, .Image2 .Image6 .Image7 {
 	margin-top: 210px;
 }
-
 .Image3, .Image4 {
 	margin-top: -900px;
 	text-align: center;
 }
 
-.Image5 {
-	margin-left: 200px;
-	margin-top: -390px;
-	margin-bottom: 400px;
+.TawaLogo {
+  position: absolute;
+  top: 20px; /* Adjust this value to position the logo from the top */
+  left: 20px; /* Adjust this value to position the logo from the left */
 }
+
 
 .Image6 {
 	margin-right: 700px;
@@ -365,8 +409,19 @@ ul li:hover ul {
 	margin-top: -100px;
 	margin: 5px;
 }
-.img
-  margin: 5px;
+
+img {
+    margin-right: 10px; /* Adjust the value to control the space */
+	text-align: center;
+}
+
+.KORU_DESIGN {
+  margin-top: -4px;
+  margin-right: 2px;
+}
+
+.DOC {
+  margin-top: 50px;
 }
 
 #myBtn {
@@ -387,6 +442,7 @@ ul li:hover ul {
   display: flex; /* Flexbox for centering content */
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
+  font-size: 50px;
 }
 
 #myBtn:hover {
